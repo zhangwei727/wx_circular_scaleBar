@@ -1,0 +1,4 @@
+<view class="container">
+	<canvas canvas-id="firstCanvas" type="2d" id="firstCanvas" style="width:200px;height:200px;display:block;"></canvas>
+  <view class="percentage">70%</view>
+</view>
