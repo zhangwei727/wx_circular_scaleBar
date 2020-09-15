@@ -36,10 +36,12 @@ Page({
           progress: 75, // 显示进度 （单位百分比）
           index: 0, // 开始刻度
           defaultColor: '#dee1e4', // 开始颜色
-          activeColor: '#2fd498' // 进度条颜色
+          activeColor: '#5CCCFF' // 进度条颜色
         };
+        this.setData({
+          process: obj.progress
+        })
         obj.deg = (180 - 2 * obj.start) / obj.num;
-
         canvas.width = obj.width;
         canvas.height = obj.height;
 
